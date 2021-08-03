@@ -1,0 +1,44 @@
+digraph L {
+  node [shape=record fontname=Arial];
+
+subgraph cluster_Anfang{
+"Aufzug" -> {"Knöpfe drücken"  "Elektronik"} 
+"Elektronik" -> {"Kabel wild kombinieren" "Anleitung folgen"}
+"Kabel wild kombinieren" -> "Dunkler Flur"
+{"Knöpfe drücken" "Anleitung folgen"} 
+-> "Heller Flur" -> {"Sicherheitsschleuse so betreten" "Gegensprechanlage"}
+"Sicherheitsschleuse so betreten" -> "Ende"
+{"Gegensprechanlage" "Dunkler Flur"} -> "Team Treffen" -> "Team Wählen"
+}
+
+subgraph cluster_Team{
+"Team Wählen" -> {"Research" "Development"}
+"Research" -> {"BioSamples" "Aquarium"}
+"Development" -> {"Computer Logs" "Messgeräte"}
+}
+
+"Computer Logs" -> "Betritt ComputerLab"
+"Aquarium" -> "Betritt Aquarium"
+"BioSamples" -> "Betritt Labor"
+"Messgeräte" -> "Betritt Werkstatt"
+
+
+subgraph cluster_Research{
+"Betritt ComputerLab" -> {"Schränke durchsuchen" "Computer durchsuchen"}
+}
+
+subgraph cluster_Development{
+"Betritt Werkstatt" -> "XX"
+}
+
+subgraph cluster_BioSamples{
+"Betritt Labor" -> {"Inkubator öffnen" "Die Pathologische Abteilung suchen"}
+}
+
+subgraph cluster_Aquarium{
+"Betritt Aquarium" -> {"Licht anschalten" "Licht auslassen"}
+"Licht anschalten" -> "xcv"
+}
+
+} 
+

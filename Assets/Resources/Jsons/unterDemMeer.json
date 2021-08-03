@@ -1,0 +1,184 @@
+{
+    "Items": [
+        {
+         "option": 1,
+         "headShort": " Du hast erwartet, dass die  Türen sich öffnen. Leider passiert nichts.",
+         "headOpen": "'Viel Glück da unten!' Die Türen des Aufzuges schließen sich hinter dir. Langsam sinkt er abwärts. Zunächst lässt das + Wasser noch etwas Licht hindurch. Durch die Fenster der Kapsel siehst du Fische und Quallen. Langsam wird es dunkler, bald schon sinkst du durch dichtes Schwarz. Dann endlich erscheinen Lichter unter dir.   Du näherst dich der Bodenstation. Die Kapsel  kommt zum stehen. Du hast erwartet, dass die  Türen sich öffnen. Leider passiert nichts.",
+         "cardOne": "Versuchen an der Elektronik herumzuspielen",
+         "cardTwo": "Testweise ein paar Knöpfe drücken",
+         "nextOptionOne": 365,
+         "nextOptionTwo": 2
+        },
+        {
+         "option": 1,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 516,
+         "nextOptionTwo": 532
+        },
+        {
+         "option": 2,
+         "headShort": "Es ist ziemlich ruhig. ",
+         "headOpen": "Dein Vorhaben scheint zu funktionieren. Zuerst scheint nichts zu passieren, dann rumpelt die Aufzugkapsel und ihre Tür öffnet sich. Du blickst in einen beleuchteten Glaskorridor. Hinter dem Glas erkennst du nur schemenhaft  den Meeresgrund. Der Gang ist einige Hundert Meter lang.",
+         "cardOne": "Jetzt lieber vorsichtig...",
+         "cardTwo": "Na dann mal los, auf zur Station.",
+         "nextOptionOne": 6,
+         "nextOptionTwo": 55
+        },
+        {
+         "option": 3,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 429,
+         "nextOptionTwo": 249
+        },
+        {
+         "option": 4,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 709,
+         "nextOptionTwo": 684
+        },
+        {
+         "option": 5,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 40,
+         "nextOptionTwo": 755
+        },
+        {
+         "option": 6,
+         "headShort": "Vorsichtig",
+         "headOpen": "Vorsichtig",
+         "cardOne": "v1",
+         "cardTwo": "v2",
+         "nextOptionOne": 387,
+         "nextOptionTwo": 347
+        },
+        {
+         "option": 7,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 886,
+         "nextOptionTwo": 800
+        },
+        {
+         "option": 55,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 405,
+         "nextOptionTwo": 140
+        },
+        {
+         "option": 77,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 314,
+         "nextOptionTwo": 112
+        },
+        {
+         "option": 159,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 973,
+         "nextOptionTwo": 331
+        },
+        {
+         "option": 172,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 135,
+         "nextOptionTwo": 345
+        },
+        {
+         "option": 365,
+         "headShort": "Wie löst du das Elektroproblem?",
+         "headOpen": "Es gelingt dir einen Wartungsschacht zu öffnen. Dem Gewirr der Kabel nach zu urteilen, ist es eine Weile her, dass jemand das mal sortiert hat. Du könntest jetzt einfach Anschlüsse auf die Platinen drücken und hoffen, dass etwas passiert. In der Klappe des Schachtes findest du zwar ein Anleitungsschema, aber du bist unsicher, ob du es schaffst, dich da schnell einzuarbeiten.",
+         "cardOne": "Einfach wild Kabel und Anschlüsse kombinieren.",
+         "cardTwo": "Lieber der Anleitung folgen.",
+         "nextOptionOne": 814,
+         "nextOptionTwo": 2
+        },
+        {
+         "option": 516,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 949,
+         "nextOptionTwo": 178
+        },
+        {
+         "option": 532,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 877,
+         "nextOptionTwo": 315
+        },
+        {
+         "option": 717,
+         "headShort": "Das war es leider.",
+         "headOpen": "Du betrittst die Luftschleuse. ",
+         "cardOne": "Zurück zum Anfang.",
+         "cardTwo": "Zurück zum Anfang.",
+         "nextOptionOne": 1,
+         "nextOptionTwo": 1
+        },
+        {
+         "option": 773,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 782,
+         "nextOptionTwo": 604
+        },
+        {
+         "option": 814,
+         "headShort": "Was probierst du zuerst aus?",
+         "headOpen": "Du probierst herum und steckst willkürlich Kabel hin und her. Erst scheint gar nichts zu passieren und du produzierst nur ein paar Funken. Dann endlich scheint etwas zu passieren. Die eine Tür des Aufzuges öffnet sich langsam. Du bist frei und erblickst den gläsernen Korridor, der zum Hauptgebäude führt. Allerdings scheinst du mit deinen Experimenten ungewollt das Licht ausgeschaltet zu haben, denn der Gang vor dir ist schwarz. In einigen hundert Metern scheint eine Kontrollleuchte zu glühen. Du gehst darauf zu. Der Boden erscheint Dir seltsam klebrig, zwischendrin hast du das Gefühl auf matschige Dinge zu treten. Du erreichst die Kontrollleuchte. Sie gehört zum Zugang für eine Hygenische Luftschleuse. Daneben siehst du eine Gegensprechanlage.",
+         "cardOne": "Die Luftschleuse betreten.",
+         "cardTwo": "Die Gegensprechanlage benutzen.",
+         "nextOptionOne": 717,
+         "nextOptionTwo": 887
+        },
+        {
+         "option": 887,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 336,
+         "nextOptionTwo": 203
+        },
+        {
+         "option": 888,
+         "headShort": "",
+         "headOpen": "",
+         "cardOne": "",
+         "cardTwo": "",
+         "nextOptionOne": 997,
+         "nextOptionTwo": 147
+        }
+       ]
+}
