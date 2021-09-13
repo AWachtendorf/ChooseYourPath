@@ -3,11 +3,11 @@ digraph L {
 
 subgraph cluster_Anfang{
 "Aufzug" -> {"Knöpfe drücken"  "Elektronik"} 
-"Elektronik" -> {"Kabel wild kombinieren" "Anleitung folgen"}
-"Kabel wild kombinieren" -> "Dunkler Flur"
+"Elektronik" -> {"Kabel wild kombinieren(Stromausfall)" "Anleitung folgen"}
+"Kabel wild kombinieren(Stromausfall)" -> "Dunkler Flur"
 {"Knöpfe drücken" "Anleitung folgen"} 
--> "Heller Flur" -> {"Sicherheitsschleuse so betreten" "Gegensprechanlage"}
-"Sicherheitsschleuse so betreten" -> "Ende"
+-> "Heller Flur" -> {"Sicherheitsschleuse so betreten(ertrinken)" "Gegensprechanlage"}
+"Sicherheitsschleuse so betreten(ertrinken)" -> "Ende"
 {"Gegensprechanlage" "Dunkler Flur"} -> "Team Treffen" -> "Team Wählen"
 }
 
@@ -32,12 +32,46 @@ subgraph cluster_Development{
 }
 
 subgraph cluster_BioSamples{
-"Betritt Labor" -> {"Inkubator öffnen" "Die Pathologische Abteilung suchen"}
+"Betritt Labor" -> {"Inkubator öffnen", "Die pathologische Abteilung suchen"}
 }
 
 subgraph cluster_Aquarium{
-"Betritt Aquarium" -> {"Licht anschalten" "Licht auslassen"}
-"Licht anschalten" -> "xcv"
+"Betritt Aquarium" -> {"Licht anschalten(Kurzschluss)" "Licht auslassen"}
+"Licht anschalten(Kurzschluss)" -> {"Lebendiges Exemplar suchen","Die pathologische Abteilung suchen"}
+"Licht auslassen" -> {"Die Aquarien untersuchen","Nachschauen ob es eine Inventurliste gibt"}
+}
+
+subgraph cluster_Lüftungsschacht{
+
+rank = same; "links gehen"; "rechts gehen"; 
+
+"In Lüftungsschacht kriechen" -> {"links gehen" "rechts gehen"}
+
+"rechts gehen"-> {"Am Ventilator vorbeikriechen"  "zurück nach links gehen"}
+"links gehen" -> {"Durch das Gitter nach unten"  "zurück nach rechts gehen"} 
+
+"zurück nach links gehen"->"links gehen"
+"zurück nach rechts gehen" ->"rechts gehen"
+
+"Am Ventilator vorbeikriechen" -> "Ausgang 1"
+"Durch das Gitter nach unten" -> "Ausgang 2"
+}
+
+
+subgraph cluster_Wartungsschacht{
+"Gitter öffnen und in Wartungsschacht kriechen" -> {"a","b"}
+"a"->{"aa","bb"}
+"b"->{"cc","dd"}
+
+"aa"->{"iii","bbb"}
+"bb"->{"aaa","ddd"}
+
+"cc"->{"ddd","ggg"}
+"dd"->{"hhh","iii"}
+
+{"aaa","bbb","ggg"}->{"aaaa","bbbb"}
+{"iii","hhh","ddd"}->{"cccc","dddd"}
+
 }
 
 } 
