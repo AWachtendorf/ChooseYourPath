@@ -33,13 +33,21 @@ subgraph cluster_Development{
 
 subgraph cluster_BioSamples{
 "Betritt Labor" -> {"Inkubator öffnen", "Die pathologische Abteilung suchen"}
+"Inkubator öffnen"->"Petrischalen entnehmen"->{"Direkt Einpacken","Unters Mikroskop legen"}
+
 }
 
 subgraph cluster_Aquarium{
 "Betritt Aquarium" -> {"Licht anschalten(Kurzschluss)" "Licht auslassen"}
 "Licht anschalten(Kurzschluss)" -> {"Lebendiges Exemplar suchen","Die pathologische Abteilung suchen"}
+"Lebendiges Exemplar suchen" -> {"Zitterall mitnehmen","Tintenfisch mitnehmen"}
+"Zitterall mitnehmen"->"Ende 2"
+
 "Licht auslassen" -> {"Die Aquarien untersuchen","Nachschauen ob es eine Inventurliste gibt"}
+
 }
+
+"Die pathologische Abteilung suchen" -> "In Lüftungsschacht kriechen"
 
 subgraph cluster_Lüftungsschacht{
 
@@ -56,6 +64,8 @@ rank = same; "links gehen"; "rechts gehen";
 "Am Ventilator vorbeikriechen" -> "Ausgang 1"
 "Durch das Gitter nach unten" -> "Ausgang 2"
 }
+
+
 
 
 subgraph cluster_Wartungsschacht{
