@@ -1,0 +1,29 @@
+digraph story{
+"Lawine. Höhle. Feuer?"->"Eis Bricht. Junge und Mammut rennen weg" -> {"Jungen und Mammut nachlaufen" "Feuer befreit dich"}
+
+
+"Jungen und Mammut nachlaufen"->{"Rufen","Still verhalten"}
+
+"Rufen"->"Höhlenmschen kidnapt Mammut"->{"Lederriemen durchschneiden","Eiswand untersuchen"}
+"Eiswand untersuchen"->"Mammut wird befreit"->"Ende 3"
+"Still verhalten"->{"Jungen selber helfen","anderer Ausweg"}
+
+"Lederriemen durchschneiden"->"Planen"->{"Messer holen","Mammut Mann schleifen lassen"}
+"Messer holen"->"Ende schlecht 2"
+"Mammut Mann schleifen lassen"->"Ende gut"
+
+
+"Jungen selber helfen"->"Höhlenmensch verjagen"->"Rettung"->"Ende2"
+
+
+"anderer Ausweg"->"Findet Tunnel"->"Findet Mammuts"->{"Rote Hand drücken","schwarze Hand drücken"}
+
+"Rote Hand drücken"->"Ende schlecht"
+
+"schwarze Hand drücken"->"Findet Schlitten"->"Ende Frei"
+
+"Feuer befreit dich" -> {"Zweiten Ski holen?" ,"Ausrüstung liegen lassen"}
+
+"Zweiten Ski holen?"->"Schneemensch in Skilfit"->"Ende gut 3"
+"Ausrüstung liegen lassen" -> "Schneewehe runter rollen"->"Ende gut 2"
+}
